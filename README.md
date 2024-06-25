@@ -1,3 +1,4 @@
-Simples jogo inspirado no DinoGame do Google Chrome.
+Jogo de plataforma para a matéria de Computação Gráfica, baseado no jogo do dinossauro do google.
 
-Disponivel em: https://luizzgs.github.io/KnightGame/
+Toda e qualquer semelhança com ex-presidentes é mera ficção e coincidência.
+Disponível > 
