@@ -43,7 +43,7 @@ adventure.sprite.src = './sprites/Run-Sheet.png';
 
 
 let obstacles = [];
-let gameSpeed = 7;
+let gameSpeed = 3;
 let score = 0;
 let animationSpeed = 10; // Menor valor = mais rápido
 let frameCount = 0;
