@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <audio id="ambientSound" src="./sound/backsound.mp3" autoplay loop></audio>
+    
 <head>
     
     <meta charset="UTF-8">
@@ -34,6 +34,16 @@ canvas {
     </style>
 </head>
 <body>
+
+    <audio id="ambientSound" src="./sound/backsound.mp3" autoplay loop></audio>
+
+    <script>
+        window.onload = function() {
+            var audio = document.getElementById('ambientSound');
+            audio.volume = 0.3; // Define o volume para 50%
+        };
+    </script>
+
     <canvas id="gameCanvas" width="800" height="200"></canvas>
   
     <audio id="failSound" src="./sound/hurt.wav"></audio>
