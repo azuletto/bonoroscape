@@ -43,7 +43,7 @@ adventure.sprite.src = './sprites/Run-Sheet.png';
 
 
 let obstacles = [];
-let gameSpeed = 3;
+let gameSpeed = 5;
 let score = 0;
 let animationSpeed = 10; // Menor valor = mais rápido
 let frameCount = 0;
@@ -108,10 +108,10 @@ function updateObstacles() {
 function detectCollision() {
     obstacles.forEach(obstacle => {
         if (
-            adventure.x < obstacle.x + obstacle.width &&
-            adventure.x + adventure.width > obstacle.x &&
-            adventure.y < obstacle.y + obstacle.height &&
-            adventure.y + adventure.height > obstacle.y
+            adventure.x-20 < obstacle.x + obstacle.width &&
+            adventure.x-20 + adventure.width > obstacle.x &&
+            adventure.y-20 < obstacle.y + obstacle.height &&
+            adventure.y-20 + adventure.height > obstacle.y
         ) {
             // Colisão detectada
             ambientSound.pause();
